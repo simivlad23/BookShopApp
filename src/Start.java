@@ -35,6 +35,8 @@ public class Start {
         JDBConnectionWrapper jdbConnectionWrapper = new JDBConnectionWrapper("bookstore");
 
 
+        System.out.println("am mai pus ceva");
+
 
         MainFrame mainFrame =new MainFrame();
         MainFrameCont mainFrameCont = new MainFrameCont(mainFrame);
